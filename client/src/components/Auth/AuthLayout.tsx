@@ -63,7 +63,7 @@ function AuthLayout({
         <div className="mt-8 flex justify-center px-4">
           <img
             src="assets/logo.svg"
-            className="h-16 w-auto max-w-[280px] object-contain invert dark:invert-0 sm:h-20 md:h-24"
+            className="h-14 w-auto max-w-[min(100%,24rem)] object-contain invert dark:invert-0 sm:h-16 md:h-[4.5rem]"
             alt={localize('com_ui_logo', { 0: startupConfig?.appTitle ?? Constants.DEFAULT_APP_TITLE })}
           />
         </div>
