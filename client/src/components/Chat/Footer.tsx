@@ -35,9 +35,10 @@ function Footer({ className, startupConfig }: FooterProps) {
   const mainContentParts = (
     typeof config?.customFooter === 'string'
       ? config.customFooter
-      : '[LibreChat ' +
+      : Constants.DEFAULT_APP_TITLE +
+        ' ' +
         Constants.VERSION +
-        '](https://librechat.ai) - ' +
+        ' - ' +
         localize('com_ui_latest_footer')
   ).split('|');
 

@@ -2243,6 +2243,8 @@ export enum Constants {
   BASH_PROGRAMMATIC_TOOL_CALLING = 'run_tools_with_bash',
   /** Subagent spawn tool name (must match `@librechat/agents` `Constants.SUBAGENT`). */
   SUBAGENT = 'subagent',
+  /** Default application title when `APP_TITLE` is not configured. */
+  DEFAULT_APP_TITLE = 'PortvMindChat',
 }
 
 /** Maximum number of explicit subagents per parent agent. UI + Zod schema share this. */
