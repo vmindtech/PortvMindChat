@@ -60,10 +60,10 @@ function AuthLayout({
     <div className="relative flex min-h-screen flex-col bg-white dark:bg-gray-900">
       <Banner />
       <BlinkAnimation active={isFetching}>
-        <div className="mt-8 flex justify-center px-4">
+        <div className="mt-8 flex justify-center px-4 py-2">
           <img
             src="assets/logo.svg"
-            className="h-14 w-auto max-w-[min(100%,24rem)] object-contain invert dark:invert-0 sm:h-16 md:h-[4.5rem]"
+            className="h-auto w-52 max-w-full object-contain invert dark:invert-0 sm:w-60 md:w-64"
             alt={localize('com_ui_logo', { 0: startupConfig?.appTitle ?? Constants.DEFAULT_APP_TITLE })}
           />
         </div>
